@@ -8,3 +8,12 @@ Improvements to be made:
 
 - Take all the final state products, not just the leading order (implement variable input lengths)
 - Use the full training dataset and develop a generator to load the events temporarily for each epoch/batch.
+
+
+Workflow:
+
+Data preprocessing/cleaning:
+
+- Event 4 vector extraction, object selection
+- Dataset merging and formatting
+- 
