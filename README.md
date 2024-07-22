@@ -1,6 +1,6 @@
 # Transformer-Mass-Reconstruction
 
-Developed a transformer encoder network, inspired by https://arxiv.org/abs/2202.03772, for diHiggs invariant mass reconstruction.
+Developed a transformer encoder network, inspired by the Particle Transformer paper (https://arxiv.org/abs/2202.03772), for diHiggs invariant mass reconstruction.
 
 The transformer takes the 4-vectors (pt,eta,phi,mass) of the leading order final state products of a 4W->HH->3lep+2jet+met decay and produces the invariant mass of the diHiggs system. 
 
