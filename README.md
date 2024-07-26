@@ -1,6 +1,6 @@
 # Transformer-Mass-Reconstruction
 
-Developed a transformer encoder network, inspired by the Particle Transformer for Jet Tagging paper (https://arxiv.org/abs/2202.03772), for diHiggs invariant mass reconstruction.
+Developed a transformer encoder network, inspired by the Particle Transformer for Jet Tagging paper (https://arxiv.org/abs/2202.03772), for diHiggs invariant mass reconstruction. This work develops a manual tensorflow implementation of the attention mask that was originally implemented with built-in Pytorch functions. The original transformer is used for jet classification, we adapt this for the task of mass regression by performing an ablation study. 
 
 The transformer takes the 4-vectors (pt,eta,phi,mass) of the leading order final state products of a 4W->HH->3lep+2jet+met decay and produces the invariant mass of the diHiggs system. 
 
